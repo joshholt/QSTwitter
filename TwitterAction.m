@@ -3,7 +3,6 @@
 //  Twitter
 //
 //  Created by Joshua Holt on 12/23/09.
-//
 
 #import "TwitterAction.h"
 #import "JSON.h"
