@@ -40,15 +40,10 @@
 
 // Object Handler Methods
 
-/*
 - (void)setQuickIconForObject:(QSObject *)object{
-    [object setIcon:nil]; // An icon that is either already in memory or easy to load
+  [object setIcon:[QSResourceManager imageNamed:@"QSTwitter2"]]; // An icon that is either already in memory or easy to load
 }
 - (BOOL)loadIconForObject:(QSObject *)object{
 	return NO;
-    id data=[object objectForType:kTwitterType];
-	[object setIcon:nil];
-    return YES;
 }
-*/
 @end

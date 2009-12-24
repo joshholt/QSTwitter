@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35857AE910E1F79A0054319B /* QSTwitter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 35857AE810E1F79A0054319B /* QSTwitter.icns */; };
+		355272B710E334B100194344 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 355272AD10E334B100194344 /* ASIFormDataRequest.m */; };
+		355272B810E334B100194344 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 355272AF10E334B100194344 /* ASIHTTPRequest.m */; };
+		355272B910E334B100194344 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 355272B210E334B100194344 /* ASIInputStream.m */; };
+		355272BA10E334B100194344 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 355272B410E334B100194344 /* ASINetworkQueue.m */; };
+		355272BB10E334B100194344 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 355272B610E334B100194344 /* ASINSStringAdditions.m */; };
+		355272C310E3354E00194344 /* QSTwitterPrefPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 355272C210E3354E00194344 /* QSTwitterPrefPane.nib */; };
+		355272DD10E33BD600194344 /* QSTwitter2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 355272DC10E33BD600194344 /* QSTwitter2.icns */; };
 		35857B4010E200550054319B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3510E200550054319B /* NSObject+SBJSON.m */; };
 		35857B4110E200550054319B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3710E200550054319B /* NSString+SBJSON.m */; };
 		35857B4210E200550054319B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3910E200550054319B /* SBJSON.m */; };
 		35857B4310E200550054319B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3B10E200550054319B /* SBJsonBase.m */; };
 		35857B4410E200550054319B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3D10E200550054319B /* SBJsonParser.m */; };
 		35857B4510E200550054319B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B3F10E200550054319B /* SBJsonWriter.m */; };
-		35857B5A10E213040054319B /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B5010E213040054319B /* ASIFormDataRequest.m */; };
-		35857B5B10E213040054319B /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B5210E213040054319B /* ASIHTTPRequest.m */; };
-		35857B5C10E213040054319B /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B5510E213040054319B /* ASIInputStream.m */; };
-		35857B5D10E213040054319B /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B5710E213040054319B /* ASINetworkQueue.m */; };
-		35857B5E10E213040054319B /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35857B5910E213040054319B /* ASINSStringAdditions.m */; };
 		35857B6610E213880054319B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35857B6510E213880054319B /* CoreServices.framework */; };
 		35857B6810E213AB0054319B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35857B6710E213AB0054319B /* SystemConfiguration.framework */; };
 		35857B6A10E213C30054319B /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35857B6910E213C30054319B /* libz.1.2.3.dylib */; };
@@ -33,7 +34,20 @@
 
 /* Begin PBXFileReference section */
 		32DBCF980370C29C00C91783 /* QSTwitter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTwitter_Prefix.pch; sourceTree = "<group>"; };
-		35857AE810E1F79A0054319B /* QSTwitter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = QSTwitter.icns; sourceTree = "<group>"; };
+		355272AB10E334B100194344 /* ASI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASI.h; sourceTree = "<group>"; };
+		355272AC10E334B100194344 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		355272AD10E334B100194344 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		355272AE10E334B100194344 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		355272AF10E334B100194344 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		355272B010E334B100194344 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		355272B110E334B100194344 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		355272B210E334B100194344 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		355272B310E334B100194344 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		355272B410E334B100194344 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		355272B510E334B100194344 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		355272B610E334B100194344 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		355272C210E3354E00194344 /* QSTwitterPrefPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = QSTwitterPrefPane.nib; sourceTree = "<group>"; };
+		355272DC10E33BD600194344 /* QSTwitter2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = QSTwitter2.icns; sourceTree = "<group>"; };
 		35857B3310E200550054319B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		35857B3410E200550054319B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		35857B3510E200550054319B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -47,22 +61,10 @@
 		35857B3D10E200550054319B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		35857B3E10E200550054319B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		35857B3F10E200550054319B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		35857B4F10E213040054319B /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
-		35857B5010E213040054319B /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
-		35857B5110E213040054319B /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		35857B5210E213040054319B /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
-		35857B5310E213040054319B /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		35857B5410E213040054319B /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
-		35857B5510E213040054319B /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
-		35857B5610E213040054319B /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
-		35857B5710E213040054319B /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
-		35857B5810E213040054319B /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
-		35857B5910E213040054319B /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
 		35857B6510E213880054319B /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		35857B6710E213AB0054319B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
 		35857B6910E213C30054319B /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = /usr/lib/libz.1.2.3.dylib; sourceTree = "<absolute>"; };
 		35857D0210E21BE70054319B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		35857D0410E21C100054319B /* ASI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASI.h; sourceTree = "<group>"; };
 		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
 		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
 		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
@@ -114,7 +116,8 @@
 		0259C582FE90428111CA0C5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				35857AE810E1F79A0054319B /* QSTwitter.icns */,
+				355272DC10E33BD600194344 /* QSTwitter2.icns */,
+				355272C210E3354E00194344 /* QSTwitterPrefPane.nib */,
 				8D1AC9730486D14A00FE50C9 /* Info.plist */,
 			);
 			name = Resources;
@@ -160,11 +163,30 @@
 		32DBCF9F0370C38200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				35857B5F10E2130E0054319B /* ASIHTTP */,
+				355272AA10E334B100194344 /* ASIHTTP */,
 				35857B3210E200550054319B /* JSON */,
 				32DBCF980370C29C00C91783 /* QSTwitter_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		355272AA10E334B100194344 /* ASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				355272AB10E334B100194344 /* ASI.h */,
+				355272AC10E334B100194344 /* ASIFormDataRequest.h */,
+				355272AD10E334B100194344 /* ASIFormDataRequest.m */,
+				355272AE10E334B100194344 /* ASIHTTPRequest.h */,
+				355272AF10E334B100194344 /* ASIHTTPRequest.m */,
+				355272B010E334B100194344 /* ASIHTTPRequestConfig.h */,
+				355272B110E334B100194344 /* ASIInputStream.h */,
+				355272B210E334B100194344 /* ASIInputStream.m */,
+				355272B310E334B100194344 /* ASINetworkQueue.h */,
+				355272B410E334B100194344 /* ASINetworkQueue.m */,
+				355272B510E334B100194344 /* ASINSStringAdditions.h */,
+				355272B610E334B100194344 /* ASINSStringAdditions.m */,
+			);
+			path = ASIHTTP;
 			sourceTree = "<group>";
 		};
 		35857B3210E200550054319B /* JSON */ = {
@@ -185,25 +207,6 @@
 				35857B3F10E200550054319B /* SBJsonWriter.m */,
 			);
 			path = JSON;
-			sourceTree = "<group>";
-		};
-		35857B5F10E2130E0054319B /* ASIHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				35857B4F10E213040054319B /* ASIFormDataRequest.h */,
-				35857B5010E213040054319B /* ASIFormDataRequest.m */,
-				35857B5110E213040054319B /* ASIHTTPRequest.h */,
-				35857B5210E213040054319B /* ASIHTTPRequest.m */,
-				35857B5310E213040054319B /* ASIHTTPRequestConfig.h */,
-				35857B5410E213040054319B /* ASIInputStream.h */,
-				35857B5510E213040054319B /* ASIInputStream.m */,
-				35857B5610E213040054319B /* ASINetworkQueue.h */,
-				35857B5710E213040054319B /* ASINetworkQueue.m */,
-				35857B5810E213040054319B /* ASINSStringAdditions.h */,
-				35857B5910E213040054319B /* ASINSStringAdditions.m */,
-				35857D0410E21C100054319B /* ASI.h */,
-			);
-			name = ASIHTTP;
 			sourceTree = "<group>";
 		};
 		7FC20C8107FB741700FDD3CA /* Other Frameworks */ = {
@@ -259,7 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35857AE910E1F79A0054319B /* QSTwitter.icns in Resources */,
+				355272C310E3354E00194344 /* QSTwitterPrefPane.nib in Resources */,
+				355272DD10E33BD600194344 /* QSTwitter2.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +299,11 @@
 				35857B4310E200550054319B /* SBJsonBase.m in Sources */,
 				35857B4410E200550054319B /* SBJsonParser.m in Sources */,
 				35857B4510E200550054319B /* SBJsonWriter.m in Sources */,
-				35857B5A10E213040054319B /* ASIFormDataRequest.m in Sources */,
-				35857B5B10E213040054319B /* ASIHTTPRequest.m in Sources */,
-				35857B5C10E213040054319B /* ASIInputStream.m in Sources */,
-				35857B5D10E213040054319B /* ASINetworkQueue.m in Sources */,
-				35857B5E10E213040054319B /* ASINSStringAdditions.m in Sources */,
+				355272B710E334B100194344 /* ASIFormDataRequest.m in Sources */,
+				355272B810E334B100194344 /* ASIHTTPRequest.m in Sources */,
+				355272B910E334B100194344 /* ASIInputStream.m in Sources */,
+				355272BA10E334B100194344 /* ASINetworkQueue.m in Sources */,
+				355272BB10E334B100194344 /* ASINSStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

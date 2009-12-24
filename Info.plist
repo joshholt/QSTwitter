@@ -7,15 +7,15 @@
 	<key>CFBundleExecutable</key>
 	<string>QSTwitter</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.blacktree.Quicksilver.Twitter</string>
+	<string>com.thesempiternalholt.QSTwitter</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Twitter</string>
+	<string>QSTwitter</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleVersion</key>
-	<string>30</string>
+	<string>37</string>
 	<key>NSPrincipalClass</key>
 	<string>Twitter</string>
 	<key>QSActions</key>
@@ -31,12 +31,19 @@
 				<string>NSStringPboardType</string>
 			</array>
 			<key>icon</key>
-			<string>QSTwitter</string>
+			<string>QSTwitter2</string>
 			<key>name</key>
 			<string>Twitter</string>
 			<key>validatesObjects</key>
 			<false/>
 		</dict>
+	</dict>
+	<key>QSDefaults</key>
+	<dict>
+		<key>QSTwitterUserName</key>
+		<string></string>
+		<key>QSTwitterUserPassword</key>
+		<string></string>
 	</dict>
 	<key>QSPlugIn</key>
 	<dict>
@@ -50,7 +57,7 @@
 		<key>description</key>
 		<string>Posts a Tweet to your twitter account</string>
 		<key>icon</key>
-		<string>QSTwitter</string>
+		<string>QSTwitter2</string>
 		<key>qsversion</key>
 		<string>β56a7</string>
 		<key>relatedBundles </key>
@@ -67,7 +74,7 @@
 			<string>TwitterSource</string>
 		</dict>
 	</array>
-	<key>QSRegistrationTemplate</key>
+	<key>QSRegistration</key>
 	<dict>
 		<key>QSActionProviders</key>
 		<dict>
@@ -91,51 +98,32 @@
 		</dict>
 		<key>QSPreferencePanes</key>
 		<dict>
-			<key>Twitter_PrefPane</key>
+			<key>QSTwitterPrefPane</key>
 			<dict>
 				<key>class</key>
 				<string>QSPreferencePane</string>
 				<key>description</key>
-				<string>Preferences</string>
+				<string>QSTwitter Preferences</string>
 				<key>icon</key>
-				<string></string>
+				<string>QSTwitter2</string>
 				<key>name</key>
-				<string>Twitter</string>
+				<string>QSTwitter</string>
+				<key>nibBundle</key>
+				<string>com.thesempiternalholt.QSTwitter</string>
+				<key>nibName</key>
+				<string>QSTwitterPrefPane</string>
 			</dict>
 		</dict>
 	</dict>
-	<key>QSRequirementsTemplate</key>
+	<key>QSResourceAdditions</key>
 	<dict>
-		<key>bundlesTemplate</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<string></string>
-				<key>name</key>
-				<string></string>
-				<key>version</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>feature</key>
-		<integer>0</integer>
-		<key>launchLoad</key>
-		<false/>
-		<key>pathsTemplate</key>
-		<array>
-			<string>/path/to/something</string>
-		</array>
-		<key>pluginsTemplate</key>
-		<array>
-			<dict>
-				<key>id</key>
-				<string></string>
-				<key>name</key>
-				<string></string>
-				<key>version</key>
-				<string></string>
-			</dict>
-		</array>
+		<key>QSTwitter2</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.thesempiternalholt.QSTwitter</string>
+			<key>resource</key>
+			<string>QSTwitter2.icns</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
